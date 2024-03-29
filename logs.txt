@@ -1,0 +1,38 @@
+$ git log
+commit a3f0a318ebb3dc2fc1f0acb2a28b965d7be28f2a (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 12:24:15 2024 +0100
+
+    Call method makeBigStringFrom in main class.
+
+commit 58c60e7fd7ad3341490bf617c0087245b12771a7
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 12:04:35 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom.
+
+commit e711915a8632b25eefa30b9107082755eb920a7a (origin/bug1, bug1)
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 12:17:29 2024 +0100
+
+    Call method filterOddLengthStrings in main class.
+
+commit fb5ee7a2ed1ec32b716ea5d739ed3d9b1149ece5
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 12:06:42 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings.
+
+commit 4976a78a8d6b4730576941734f67d140e52aa4e2
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 11:46:53 2024 +0100
+
+    Add starter code
+
+commit 24dde76d758fdc9d5a12f12a3bf2ad783a1f1976
+Author: Sara <sara.lazarevska24@gmail.com>
+Date:   Fri Mar 29 10:42:57 2024 +0100
+
+    Initial commit
+(END)
+

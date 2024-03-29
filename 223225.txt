@@ -1,0 +1,29 @@
+4. git init ( со оваа команда фолдерот го иницијализираме како Git форлдер)
+5. git remote add origin https://github.com/Sara-Lazarevska/SI_2024_lab1_223225.git 
+( со ова локалното репо го врзуваме со репото на GitHub)
+6. Со nano README.md правиме фајл во кој ги пишуваме нашите податоци, со git add го ставаме 
+во staged фазата и потоа правиме комит со git commit -m "Initila commit" 
+7. Со git add --all ги ставаме во staged,  и со git commit --all -m "Add starter code" правиме 
+комит
+8. Со git push -u origin master ги синхронизираме комитите од локалното репо со GitHub репото
+9. Со git checkout -b bug1 и git checkout -b bug2 од master ги правиме гранките
+10. Со git checkout bug1 одиме на гранката bug1
+11. Го поправаме багот и потоа правиве git add и git commit -m "Fix wrong condition in filterOddLengthStrings."
+12. Со git checkout bug2 одиме на гранката bug2
+13. Го поправаме багот и потоа правиве git add и git commit -m "Fix wrong condition in makeBigStringFrom"
+14. Со git checkout bug1 одиме на гранката bug1
+15. Го додаваме повикот и правиме git add и git commit -m "Call method filterOddLengthStrings in main class."
+16. Со git checkout bug2 одиме на гранката bug2
+17. Го додаваме повикот и правиме git add и git commit -m "Call method makeBigStringFrom in main class."
+18. Правиме git push -u origin bug1 и git push -u origin bug2
+19. git checkout master
+20. git merge bug1 
+21. git push origin master
+22. git checkout bug2
+23. Правиме git rebase master потоа ги разрешуваме конфликтите и продолжуваме со git rebase --continue
+24. git checkout master
+25. git merge bug2
+26. git push origin master
+27. git push origin bug2 --force
+28. Правиме датотека и од git log ги земаме логовите и ги ставаме во истата
+29. git push origin master
